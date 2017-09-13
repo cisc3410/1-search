@@ -18,4 +18,4 @@ This repository contains two files called npuzzle.txt and solutions_done.txt. In
 ## Languages
 You are provided with a lot of C++ code that you are welcome to rewrite in the language of your choice and complete in that language. If you choose to do this, you must update the .travis.yml configuration with the command sequence that will generate solutions.out.
 
-
+[![Build Status](https://travis-ci.com/cisc3410/1-search.svg?token=sGqTPYKnjS4iVpK7fKg1&branch=assignment)](https://travis-ci.com/cisc3410/1-search)
