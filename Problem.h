@@ -45,7 +45,7 @@ class Problem {
 	public:
 	Problem(State s) : startState(s) {}
 	virtual bool isGoalState(const State& s) const =0;
-	virtual std::vector<std::pair<std::string, State>> expand(const State& s) const =0;
+	virtual std::vector<std::pair<std::string, State> > expand(const State& s) const =0;
 	const State& getStartState() { return startState; }
 
 	template <class C>
