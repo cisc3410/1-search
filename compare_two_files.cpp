@@ -14,7 +14,8 @@ int main(int argc, char** argv) {
 	std::string checksolution, correctsolution;
 	std::vector<int> correct, incorrect;
 	int i = 0;
-	while (checkfile >> checksolution && correctfile >> correctsolution) {
+	while (std::getline(checkfile, checksolution) && std::getline(correctfile, correctsolution)) {
+		std::cout << checksolution << ", " << correctsolution << std::endl;
 		if (checksolution == correctsolution) correct.push_back(i);
 		else incorrect.push_back(i);
 		i++;
