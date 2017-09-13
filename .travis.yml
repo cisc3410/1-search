@@ -1,0 +1,7 @@
+language: c++
+
+script:
+ - g++ main.cpp
+ - ./a.out npuzzle.h a
+ - g++ compare_two_files.cpp
+ - ./a.out solutions.out solutions_done.out
