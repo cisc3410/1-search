@@ -18,5 +18,6 @@ before_install:
 script:
  - $CXX main.cpp
  - ./a.out npuzzle.h a
+ - cat solutions.out
  - $CXX compare_two_files.cpp
  - ./a.out solutions.out solutions_done.out
