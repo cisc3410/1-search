@@ -61,10 +61,10 @@ class Problem {
 	}
 
 	std::string DFS() { 
+		return solve(std::stack<Node<State>*>);
 	}
 
 	std::string Astar() {
-		// TODO
 		return solve(std::priority_queue<Node<State>*, std::vector<Node<State>*>, AstarCompare<State>>());
 	}
 
