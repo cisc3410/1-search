@@ -17,7 +17,7 @@ before_install:
 
 script:
  - $CXX main.cpp
- - ./a.out npuzzle.h a
+ - ./a.out npuzzle.txt a
  - cat solutions.out
  - $CXX compare_two_files.cpp
- - ./a.out solutions.out solutions_done.out
+ - ./a.out solutions.out solutions_done.txt
